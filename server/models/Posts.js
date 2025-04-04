@@ -4,11 +4,19 @@ module.exports=(sequelize,DataTypes)=>{
             type:DataTypes.STRING,
             allowNull:false
         },
-        postText:{
+        description:{
             type:DataTypes.TEXT,
             allowNull:false
         },
-        username:{
+        category:{
+            type:DataTypes.STRING,
+            allowNull:false
+        },
+        image:{
+            type:DataTypes.STRING,
+            allowNull:false
+        },
+        priceText:{
             type:DataTypes.STRING,
             allowNull:false
         }
